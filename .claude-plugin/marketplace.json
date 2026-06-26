@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "claude-design-importer",
-      "description": "Convert pixel-exact design mockups (e.g. HTML from Claude's design tool) into production Tailwind / shadcn-on-Radix components that use a real token system — a modular rem-based type scale, semantic color tokens, and a spacing scale — instead of arbitrary values like text-[13.5px].",
+      "description": "Use when given a design to implement — an HTML mockup, a design file, or a screenshot — and asked to build, implement, recreate, port, or build out that design in a real codebase (React/Next.js + Tailwind, often shadcn/Radix). Triggers even when the user merely drops in an HTML/design file and says 'implement this' without mentioning tokens or quality. Converts pixel-exact inline styles and magic values into a proper token system — a rem-based modular type scale with tuned line-heights, semantic color tokens, and a spacing scale — instead of arbitrary values like text-[13.5px].",
       "author": {
         "name": "Stephen G. Pope"
       },
