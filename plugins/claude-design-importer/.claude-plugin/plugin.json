@@ -1,0 +1,8 @@
+{
+  "name": "claude-design-importer",
+  "description": "Convert pixel-exact design mockups (e.g. HTML from Claude's design tool) into production Tailwind / shadcn-on-Radix components that use a real token system instead of arbitrary values like text-[13.5px].",
+  "version": "0.1.0",
+  "author": {
+    "name": "Stephen G. Pope"
+  }
+}
