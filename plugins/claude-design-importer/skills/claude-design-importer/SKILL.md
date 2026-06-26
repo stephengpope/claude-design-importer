@@ -1,6 +1,6 @@
 ---
 name: claude-design-importer
-description: Use when given a design to implement — an HTML mockup, a design file, or a screenshot — and asked to build, implement, recreate, port, or "build out" that design in a real codebase (React/Next.js + Tailwind, often shadcn/Radix). Triggers even when the user merely drops in an HTML/design file and says "implement this" or "build this" without mentioning tokens or quality. Converts the mockup's pixel-exact inline styles and magic values into a proper token system — a rem-based modular type scale with tuned line-heights, semantic color tokens, and a spacing scale — instead of copying values like text-[13.5px] verbatim. Also use to fix a design that was already imported and ended up full of arbitrary px, inline styles, or hardcoded hex.
+description: Use when given an HTML mockup, design file, or screenshot and asked to implement, build, or recreate it in a Tailwind/shadcn codebase — even a bare "build this" with no mention of quality. Converts inline styles and magic values like text-[13.5px] into tokenized components. Also use to clean up an already-imported, px-littered design.
 ---
 
 # Claude Design Importer
